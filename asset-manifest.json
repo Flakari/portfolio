@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.a26f8a14.chunk.css",
+    "main.js": "/portfolio/static/js/main.bc333aa4.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.bc333aa4.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.43337fc2.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.43337fc2.js.map",
+    "static/js/2.cda4e980.chunk.js": "/portfolio/static/js/2.cda4e980.chunk.js",
+    "static/js/2.cda4e980.chunk.js.map": "/portfolio/static/js/2.cda4e980.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.16add942baa41c3be93a633d406100bf.js": "/portfolio/precache-manifest.16add942baa41c3be93a633d406100bf.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.a26f8a14.chunk.css.map": "/portfolio/static/css/main.a26f8a14.chunk.css.map",
+    "static/js/2.cda4e980.chunk.js.LICENSE.txt": "/portfolio/static/js/2.cda4e980.chunk.js.LICENSE.txt",
+    "static/media/Contact.scss": "/portfolio/static/media/brackets.4b1d35e1.png",
+    "static/media/Home.scss": "/portfolio/static/media/wallpaper.dfe70190.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.43337fc2.js",
+    "static/js/2.cda4e980.chunk.js",
+    "static/css/main.a26f8a14.chunk.css",
+    "static/js/main.bc333aa4.chunk.js"
+  ]
+}
