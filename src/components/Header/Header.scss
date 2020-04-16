@@ -1,0 +1,122 @@
+header {
+    height: 90px;
+    color: #4b4b4b;
+    font-size: 1.7rem;
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    background-color: white;
+    box-shadow: #005c78 0 0px 8px;
+    font-variant: petite-caps;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+
+    p {
+        display: inline-block;
+        line-height: 1;
+    }
+
+    #header-hamburger {
+        display: none;
+        background: none;
+        border: none;
+        cursor: pointer;
+        height: 80px;
+        padding: 10px;
+        width: 80px;
+        position: absolute;
+        top: 5px;
+        left: 0;
+
+        img {
+            position: relative;
+            top: 0px;
+            right: 0px;
+            height: 35px;
+        }
+    }
+}
+
+nav {
+    width: 40%;
+    font-size: 1.125rem;
+    position: relative;
+    top: 5px;
+    min-width: 300px;
+    font-variant: petite-caps;
+
+    a {
+        color: #4b4b4b;
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-around;
+        padding: 0;
+    }
+
+    .highlight {
+        border-bottom: 4px solid #0089be; 
+    }
+
+    li {
+        list-style-type: none;
+        display: inline-block;
+        padding: 2px 12px;
+        line-height: 2;
+
+        &:hover {
+            border-bottom: 4px solid #0089be;
+        }
+    }
+
+    @media screen and (max-width: 700px) {
+        position: fixed;
+        width: 100%;
+        top: -420px;
+        transition: top 0.5s ease-in-out;
+        z-index: 1;
+        font-size: 1.6em;
+
+        ul {
+            flex-direction: column;
+            background: white;
+
+            li {
+                width: 100%;
+                padding: 35px 0;
+
+                &:hover {
+                    border: none;
+                    background-color: #56cfff;
+                }
+            }
+        }
+
+        .highlight {
+            border: none;
+            background-color: #0089be;
+            color: white;
+            text-shadow: white 0px 0px 3px;
+        }
+    }
+}
+
+@media screen and (max-width: 700px) {
+    header {
+        justify-content: center;
+
+        #header-hamburger {
+            display: block;
+        }
+    }
+}
+
+.visible {
+    @media screen and (max-width: 700px) {
+        top: 65px;
+    }
+}

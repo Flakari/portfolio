@@ -1,0 +1,27 @@
+html {
+	margin-top: 90px;
+}
+
+html, body, #root, .App {
+	height: calc(100vh - 90px);
+}
+
+.App {
+	text-align: center;
+}
+
+main {
+    padding: 0 1em;
+
+    h1 {
+        font-size: 2.5em;
+        margin-top: 0;
+        padding-top: 20px;
+        font-variant: petite-caps;
+        font-weight: 500;
+    }
+}
+
+
+
+

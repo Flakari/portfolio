@@ -1,0 +1,82 @@
+.project-tile {
+    display: grid;
+    width: 90%;
+    max-width: 400px;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    color: white;
+    padding-bottom: 10px;
+    z-index: 0;
+    box-shadow: #005c7870 0 3px 5px;
+
+    h2 {
+        background: #003a77b0;
+        width: 100%;
+        padding: 10px 0 10px 0;
+        margin: 0;
+        border-radius: 5px 5px 0 0;
+        font-size: 1.6em;
+        font-variant: petite-caps;
+        font-weight: 400;
+    }
+
+    p {
+        font-size: 1em;
+        margin: 0 0 20px 0;
+        padding: 5px 15px;
+        background: linear-gradient(#003a77b0, #0269b000 115%);
+    }
+
+    .button-container {
+        height: 55px;
+    }
+
+    button {
+        height: 50px;
+        width: 60px;
+        display: inline-block;
+        margin: 0 10px;
+        padding: 5px;
+        font-size: 1em;
+        padding-bottom: 10px;
+        background: #0000ff21;
+        color: white;
+        border-radius: 15px;
+        border: 3px solid white;
+        cursor: pointer;
+        transition: width ease-in-out 0.2s, height ease-in-out 0.2s;
+
+        &:hover {
+            height: 55px;
+            width: 65px;
+        }
+
+        img {
+            height: 25px;
+            position: relative;
+            top: 4px;
+        }
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+
+    &:hover {
+        .image {
+            filter: blur(0.1);
+        }
+
+        .description {
+            display: block;
+            filter: opacity(0.9);
+        }
+    }
+
+    @media screen and (max-width: 820px) {
+        min-width: 200px;
+    }
+    
+    
+}
