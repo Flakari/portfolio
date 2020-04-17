@@ -1,6 +1,13 @@
 @font-face {
     font-family: 'Segoe UI';
     src: url('../files/segoeui.ttf');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('../files/segoeuisl.ttf');
+    font-weight: 400;
 }
 
 html {

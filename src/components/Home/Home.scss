@@ -7,6 +7,10 @@
 	width: 100%;
 	min-height: 300px;
 	top: 0px;
+
+	@media screen and (max-width: 745px) {
+		background-position-x: -800px;
+	}
 }
 
 #home-container {
@@ -42,7 +46,7 @@
 	
 	h2 {
 		font-size: 1.8rem;
-		font-weight: 300;
+		font-weight: 400;
 		text-align: right;
 	}
 	
@@ -64,8 +68,10 @@
     }
 
     @media screen and (max-width: 415px) {
+		width: 100%;
+		
         h2, #intro {
             font-size: 1.4em;
-        }
+		}
     }
 }
