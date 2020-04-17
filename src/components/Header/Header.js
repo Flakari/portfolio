@@ -23,7 +23,7 @@ const Header = () => {
     return (
         <>
             <header>
-                <button id="header-hamburger" onClick={clickHandler} aria-label="Toggle Navigation"><img src="images/Hamburger_icon.svg" alt=""></img></button>
+                <button id="header-hamburger" onClick={clickHandler} aria-label="Toggle Navigation"><img src={require("../../images/Hamburger_icon.svg")} alt=""></img></button>
                 <p>Nathan Dimock</p>
                 {windowWidth > 700 ? <Navigation show={showNav} click={clickHandler} /> : null}
             </header>

@@ -8,21 +8,21 @@ const projectDetails = [
         description: 'Weather app made using React, uses data collected from OpenWeatherMap API',
         site: 'https://flakari.github.io/weather-app',
         github: 'https://github.com/Flakari/weather-app',
-        image: 'Weather App.png'
+        image: 'Weather-App.png'
     },
     {
         title: 'Game of Life',
         description: 'British Mathematician John Conway\'s game of Life made using React',
         site: 'https://flakari.github.io/game-of-life',
         github: 'https://github.com/Flakari/game-of-life',
-        image: 'Game of Life.png'
+        image: 'Game-of-Life.png'
     },
     {
         title: 'Pomodoro Clock',
         description: 'Vanilla JavaScript pomodoro clock, keeps track of user\'s time worked',
         site: 'https://flakari.github.io/pomodoro-clock',
         github: 'https://github.com/Flakari/pomodoro-clock',
-        image: 'Pomodoro Clock.png'
+        image: 'Pomodoro-Clock.png'
     },
     {
         title: 'Library',

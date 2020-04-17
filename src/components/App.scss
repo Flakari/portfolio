@@ -1,5 +1,14 @@
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('../files/segoeui.ttf');
+}
+
 html {
 	margin-top: 90px;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 html, body, #root, .App {
