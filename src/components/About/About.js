@@ -1,6 +1,5 @@
 import React from 'react';
 import './About.scss';
-import './src/images/javascript.svg';
 
 const About = () => {
     return (
