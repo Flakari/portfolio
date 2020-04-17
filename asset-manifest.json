@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.9e5b1930.chunk.css",
+    "main.css": "/portfolio/static/css/main.1fde96ea.chunk.css",
     "main.js": "/portfolio/static/js/main.19b49f41.chunk.js",
     "main.js.map": "/portfolio/static/js/main.19b49f41.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.43337fc2.js",
@@ -8,9 +8,9 @@
     "static/js/2.80ce03cb.chunk.js": "/portfolio/static/js/2.80ce03cb.chunk.js",
     "static/js/2.80ce03cb.chunk.js.map": "/portfolio/static/js/2.80ce03cb.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.bbc167d15467f0c84cb12bc95f008781.js": "/portfolio/precache-manifest.bbc167d15467f0c84cb12bc95f008781.js",
+    "precache-manifest.24babf07a4f0daf56599f4e881fa4638.js": "/portfolio/precache-manifest.24babf07a4f0daf56599f4e881fa4638.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.9e5b1930.chunk.css.map": "/portfolio/static/css/main.9e5b1930.chunk.css.map",
+    "static/css/main.1fde96ea.chunk.css.map": "/portfolio/static/css/main.1fde96ea.chunk.css.map",
     "static/js/2.80ce03cb.chunk.js.LICENSE.txt": "/portfolio/static/js/2.80ce03cb.chunk.js.LICENSE.txt",
     "static/media/Adobe-PDF-File-Icon-01.svg": "/portfolio/static/media/Adobe-PDF-File-Icon-01.1012a2bd.svg",
     "static/media/Codepen-logo.png": "/portfolio/static/media/Codepen-logo.90aeb663.png",
@@ -37,7 +37,7 @@
   "entrypoints": [
     "static/js/runtime-main.43337fc2.js",
     "static/js/2.80ce03cb.chunk.js",
-    "static/css/main.9e5b1930.chunk.css",
+    "static/css/main.1fde96ea.chunk.css",
     "static/js/main.19b49f41.chunk.js"
   ]
 }
