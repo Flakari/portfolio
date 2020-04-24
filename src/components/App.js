@@ -10,13 +10,13 @@ import Contact from './Contact/Contact';
 function App() {
 	return (
 		<div className="App">
-			<Router>
+			<Router basename='/portfolio'>
 				<Header />
 				<Switch>
-					<Route exact path="/portfolio"><Home /></Route>
-					<Route path="/portfolio/about"><About /></Route>
-					<Route path="/portfolio/projects"><Projects /></Route>
-					<Route path="/portfolio/contact"><Contact /></Route>
+					<Route exact path="/"><Home /></Route>
+					<Route path="/about"><About /></Route>
+					<Route path="/projects"><Projects /></Route>
+					<Route path="/contact"><Contact /></Route>
 				</Switch>
 			</Router>
 		</div>

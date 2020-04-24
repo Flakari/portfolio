@@ -11,7 +11,7 @@ const Navigation = (props) => {
     return (
         <nav className={props.show ? 'visible' : null}>
             <ul>
-                <Link to="/portfolio/">
+                <Link to="/">
                     <li 
                         className={currentPage === 'null' ? 'highlight' : null} 
                         onClick={() => {changeHighlight('null'); props.click();}}
@@ -19,21 +19,21 @@ const Navigation = (props) => {
                         Home
                     </li>
                 </Link>
-                <Link to="/portfolio/about">
+                <Link to="/about">
                     <li 
                         className={currentPage === 'about' ? 'highlight' : null} 
                         onClick={() => {changeHighlight('about'); props.click();}}>
                         About
                     </li>
                 </Link>
-                <Link to="/portfolio/projects">
+                <Link to="/projects">
                     <li 
                         className={currentPage === 'projects' ? 'highlight' : null} 
                         onClick={() => {changeHighlight('projects'); props.click();}}>
                         Projects
                     </li>
                 </Link>
-                <Link to="/portfolio/contact">
+                <Link to="/contact">
                     <li 
                         className={currentPage === 'contact' ? 'highlight' : null} 
                         onClick={() => {changeHighlight('contact'); props.click();}}>

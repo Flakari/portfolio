@@ -49,12 +49,17 @@
         &:hover {
             height: 55px;
             width: 65px;
+
+            img {
+                top: 6px;
+            }
         }
 
         img {
             height: 25px;
             position: relative;
             top: 4px;
+            transition: top ease-in-out 0.2s;
         }
     }
 
