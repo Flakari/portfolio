@@ -4,6 +4,13 @@ import './Projects.scss';
 
 const projectDetails = [
     {
+        title: 'VG Lists',
+        description: 'React video game list manager using React Router, CRUD app using data from RAWG.io API',
+        site: 'https://flakari.github.io/vg-lists',
+        github: 'https://github.com/Flakari/vg-lists',
+        image: 'VG-Lists.png'
+    },
+    {
         title: 'Weather!',
         description: 'Weather app made using React, uses data collected from OpenWeatherMap API',
         site: 'https://flakari.github.io/weather-app',
@@ -23,13 +30,6 @@ const projectDetails = [
         site: 'https://flakari.github.io/pomodoro-clock',
         github: 'https://github.com/Flakari/pomodoro-clock',
         image: 'Pomodoro-Clock.png'
-    },
-    {
-        title: 'Library',
-        description: 'CRUD library app, keeps track of books read through local storage',
-        site: 'https://flakari.github.io/js-library',
-        github: 'https://github.com/Flakari/js-library',
-        image: 'Library.png'
     }
 ];
 
