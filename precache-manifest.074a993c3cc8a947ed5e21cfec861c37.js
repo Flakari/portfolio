@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ae9a0b86cc101b5311ac418d44e848ee",
+    "revision": "a8aeae2cd06f6a8d17e6fa29f5f8fb9b",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "673f750ae3b31e85fd37",
+    "revision": "37c2006dbed16702e8d8",
     "url": "/portfolio/static/css/main.b3700ffc.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.80ce03cb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "673f750ae3b31e85fd37",
-    "url": "/portfolio/static/js/main.54fcfbbe.chunk.js"
+    "revision": "37c2006dbed16702e8d8",
+    "url": "/portfolio/static/js/main.9a2ece07.chunk.js"
   },
   {
     "revision": "4a389105ba556f07fe48",
@@ -44,16 +44,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/Hamburger_icon.818b2ae6.svg"
   },
   {
-    "revision": "ce2ebb1df4a3e25f98290417f90a7d1c",
-    "url": "/portfolio/static/media/Library.ce2ebb1d.png"
-  },
-  {
-    "revision": "d60920aa4eb477d150e51a7539b99af2",
-    "url": "/portfolio/static/media/Nathan Dimock Resume.d60920aa.pdf"
+    "revision": "7ef4546f75aea3c1c75e775da092f70c",
+    "url": "/portfolio/static/media/Nathan Dimock Resume.7ef4546f.pdf"
   },
   {
     "revision": "4c2db1e1b35117d6306106dfa1f8d144",
     "url": "/portfolio/static/media/Pomodoro-Clock.4c2db1e1.png"
+  },
+  {
+    "revision": "61175183d7ef98fca9dc9b21d8d2521e",
+    "url": "/portfolio/static/media/VG-Lists.61175183.png"
   },
   {
     "revision": "e00a35696e2159961e17ae487576275e",
